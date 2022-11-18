@@ -10,6 +10,7 @@ namespace GitHubWeb.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Name = "Mahesh Added Line";
             return View();
         }
 
