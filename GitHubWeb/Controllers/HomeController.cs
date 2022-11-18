@@ -12,6 +12,7 @@ namespace GitHubWeb.Controllers
         {
             ViewBag.Name = "Mahesh Added Line";
             ViewBag.FullName = "Swapnil Jadhav Added Line";
+            ViewBag.Gender = "Male";
             return View();
         }
 
