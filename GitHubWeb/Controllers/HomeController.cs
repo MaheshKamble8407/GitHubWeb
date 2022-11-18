@@ -42,6 +42,13 @@ namespace GitHubWeb.Controllers
 
             return View();
         }
+        public ActionResult FifthMethod()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
