@@ -25,7 +25,8 @@ namespace GitHubWeb.Controllers
             ViewBag.frthline = "Rohit 2nd line";
             ViewBag.fithline = "Rohit 3nd line";
 
-            ViewBag.fithline = "rohit 3 line";
+
+            ViewBag.MaheshNew = "Mahesh Added New Extra";
 
             return View();
         }
