@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace GitHubWeb.Controllers
+namespace GitHubWeb.Controllers 
 {
     public class HomeController : Controller
     {
@@ -16,6 +16,8 @@ namespace GitHubWeb.Controllers
             ViewBag.Gender = "Male";
 
             ViewBag.SecLine = "Mahesh added 2nd line ";
+
+            ViewBag.thrdLine = "Rohit added Line";
 
             return View();
         }
